@@ -1,0 +1,13 @@
+// local scope
+// a variable located inside the function is call local variable  only inside value can be excess
+
+#include <iostream>
+using namespace std ;
+void myFunction (){
+    int x = 5;
+    cout << x;
+}
+int main (){
+    myFunction();
+    return 0;
+}
